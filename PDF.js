@@ -54,15 +54,15 @@ const PDF = (props) => {
       <div className="Post" ref={ref}>
       {/* <p><img src={Up} alt= "Up" width="80px" height="80px"/></p> */}
        
-        <p><img src={Logo} alt= "Logo" width="80px" height="80px"/><h2 style={{fontWeight: 'bold'}}>RUBIX </h2><h2 style={{fontWeight:'400', marginTop:'-70px', marginLeft:'110px'}}>TECHNOLOGIES</h2></p>
+        <p><img src={Logo} alt= "Logo" width="80px" height="80px"/><h2 style={{fontWeight: 'bold'}}>RUBIX </h2><h2 style={{fontWeight:'400', marginTop:'-72px', marginLeft:'110px'}}>TECHNOLOGIES</h2></p>
         <h4 style={{fontWeight:'400'}}>Rajagiri, 10 Salairoad,</h4>
         <h4 style={{fontWeight:'400', marginBottom: '40px' , marginTop: '-20px'}}>Thillainagar Trichy-620018</h4>
-        <h4 style={{fontWeight:'400', marginBottom: '40px', marginLeft:'450px', marginTop: '-98px'}}>+91 9500601772</h4>
+        <h4 style={{fontWeight:'400', marginBottom: '40px', marginLeft:'450px', marginTop: '-110px'}}>+91 9500601772</h4>
         <h4 style={{fontWeight:'400', marginBottom: '40px' ,marginLeft:'450px', marginTop: '-30px'}}>www.rubixtek.com</h4>
        
-        <h1 style={{textAlign: "center"}}>PAY SLIP</h1>
-      <h3>Employee Name:</h3><h3 style={{fontWeight:'500',marginTop: '-58px', marginLeft:'220px'}}>{props.empname}</h3>
-      <h3>Designation:</h3><h3 style={{fontWeight:'500',marginTop: '-58px', marginLeft:'220px'}}>React JS</h3>
+        <h1 style={{textAlign: "center", border: "1px solid black",marginTop: '-30px'}}>PAY SLIP</h1>
+      <h3 style={{marginTop: '-25px'}}>Employee Name:</h3><h3 style={{fontWeight:'500',marginTop: '-60px', marginLeft:'220px'}}>{props.empname}</h3>
+      <h3 style={{marginTop: '-25px'}}>Designation:</h3><h3 style={{fontWeight:'500',marginTop: '-60px', marginLeft:'220px'}}>React JS</h3>
       <TableContainer>
       <Table className={classes.table} aria-label="customized table">
         <TableHead>
